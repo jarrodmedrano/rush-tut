@@ -18,7 +18,6 @@
    * and then specify those projects in the "additionalProjectsToInclude" list.
    */
   "deploymentProjectNames": ["landing"],
-
   /**
    * When deploying a local Rush project, the package.json "devDependencies" are normally excluded.
    * If you want to include them, set "includeDevDependencies" to true.

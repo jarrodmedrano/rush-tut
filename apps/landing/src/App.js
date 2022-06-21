@@ -1,5 +1,5 @@
-import "./App.css";
-import { Thing } from "@shared/components";
+import './App.css';
+import { Thing } from '@shared/components';
 
 function App() {
   return (
