@@ -65,12 +65,12 @@ jobs:
     strategy:
       matrix:
         node-version: [14.x]
-        app-name: [react-app]
+        app-name: [landing]
         include:
-          - app-name: react-app
-            app: '@monorepo/react-app'
-            app-dir: 'apps/react-app'
-            app-build: 'apps/react-app/build'
+          - app-name: landing
+            app: 'landing'
+            app-dir: 'apps/landing'
+            app-build: 'apps/landing/build'
             site-id: NETLIFY_SITE_ID
     # needs: [lint, test]
     # Steps in job
